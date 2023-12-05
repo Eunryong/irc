@@ -30,15 +30,15 @@ RED = \033[31m
 
 sources1 :=
 
-sources1 += main.cpp
-sources1 += Multiplex.cpp
-sources1 += Channel.cpp
-sources1 += FileDescriptor.cpp
-sources1 += Server.cpp
-sources1 += StringHandle.cpp
-sources1 += EventHandler.cpp
-sources1 += EventCmd.cpp
-sources1 += Bot.cpp
+sources1 += srcs/main.cpp
+sources1 += srcs/Multiplex.cpp
+sources1 += srcs/Channel.cpp
+sources1 += srcs/FileDescriptor.cpp
+sources1 += srcs/Server.cpp
+sources1 += srcs/StringHandle.cpp
+sources1 += srcs/EventHandler.cpp
+sources1 += srcs/EventCmd.cpp
+sources1 += srcs/Bot.cpp
 
 # ---- Bonus ---- #
 
