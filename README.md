@@ -53,6 +53,16 @@ make Internet Relay Chat protocol Server
 
 -   kqueue
 
+커널에 새로운 이벤트 큐를 만들고 fd를 리턴한다. fd는 kevnet에서 이벤트 등록, 모니터링에 사용된다.
+
+```c++
+int kqueue(void);
+```
+
+-   kevent
+
+kevnet는 시스템 호출은 대기열에 이벤트를 등록하고 보류 중인 모든 이벤트를 반환하는 데 사용됩니다.
+
 ```c++
 struct kevent {
     uintptr_t ident;        /* identifier for this event */
